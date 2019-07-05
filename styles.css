@@ -1,0 +1,47 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+.name {
+    display: block;
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 100%;
+}
+
+.links {
+    font-family: "Times New Roman";
+    font-size: 100%;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: silver;
+}
+
+body {
+    background: blue;
+}
+
+.nav-bar {
+    width: 100%;
+}
+
