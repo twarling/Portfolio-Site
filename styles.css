@@ -48,15 +48,6 @@ table {
     border-spacing: 0;
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    margin-top: 0;
-}
 
 .name {
     display: block;
@@ -69,21 +60,24 @@ ul {
 }
 
 .links {
-    font-family: "Times New Roman";
-    font-size: 100%;
-}
-
-li a {
     float: right;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+
+    font-family: "Times New Roman";
+    font-size: 100%;
+
 }
 
-li a:hover {
+.links:visited{
+    color: white;
+}
+
+.links:hover {
     background-color: darkblue;
+    text-decoration: none;
 }
 
 body {
@@ -91,7 +85,17 @@ body {
 }
 
 .nav-bar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
     width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
 }
 
 .index-body {
@@ -110,5 +114,20 @@ body {
 
 .index-body {
     border: 3px solid black;
+}
+
+.contacts{
+    float: bottom;
+    display: inline;
+    padding: 2%;
+    border: 0 none;
+    text-decoration: none;
+}
+.contacts:hover{
+
+}
+
+.footer{
+    width: 100%;
 }
 
