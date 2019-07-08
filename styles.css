@@ -122,8 +122,6 @@ body {
     padding: 2%;
     border: 0 none;
     text-decoration: none;
-}
-.contacts:hover{
 
 }
 
@@ -131,3 +129,10 @@ body {
     width: 100%;
 }
 
+.index-text{
+    padding: 2%;
+}
+
+.resume a{
+    color: black;
+}
