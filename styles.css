@@ -130,9 +130,66 @@ body {
 }
 
 .index-text{
-    padding: 2%;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    width: 80%;
+
+    margin: auto;
+    margin-top: 5px;
 }
 
 .resume a{
     color: black;
 }
+
+.portfolio-body{
+    padding: 10px;
+    text-align: center;
+    background: white;
+    width: 80%;
+    height: 500px;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.myPanda {
+    float: left;
+    margin-top: 2%;
+    margin-left: 33%;
+    margin-right: 3%;
+    background-image: url("assets/mypanda_logo.jpg");
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 0px;
+}
+
+.myPanda:hover {
+    transform: scale(1.1);
+    background-image: url("assets/opacity_mypanda_logo.jpg");
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.urs {
+    float: left;
+    margin-top: 2%;
+    background-image: url("assets/urs_logo.jpg");
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 0px;
+}
+
+.urs:hover {
+    transform: scale(1.1);
+    background-image: url("assets/opacity_urs_logo.jpg");
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
